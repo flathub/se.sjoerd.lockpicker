@@ -46,8 +46,8 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/sstendahl/Lockpicker.git",
-                    "commit": "0f525c6621572d2ebddf7a0bfadd5b47b12c3894",
-                    "tag": "v1.4.1",
+                    "commit": "6d5b137e884d54a8947e3b24a267237be145911f",
+                    "tag": "v1.4.2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
