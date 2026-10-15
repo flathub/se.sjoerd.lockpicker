@@ -1,7 +1,7 @@
 {
     "id": "se.sjoerd.lockpicker",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "command": "lockpicker",
     "finish-args": [
@@ -46,8 +46,8 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/sstendahl/Lockpicker.git",
-                    "commit": "ad0a312e8813c835127d834225a82a259cee6089",
-                    "tag": "v1.4.3",
+                    "commit": "fee560f0f057f82c4c17d7ba3fd44d8a7e82bdce",
+                    "tag": "v1.5.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
