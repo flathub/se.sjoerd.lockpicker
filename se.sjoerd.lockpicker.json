@@ -30,8 +30,8 @@
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/hashcat/hashcat/releases/latest",
-                        "version-query": ".tag_name | sub(\"^hashcat-\"; \"\")",
-                        "url-query": ".assets[] | select(.name==\"hashcat-\" + $version + \".tar.gz\") | .browser_download_url"
+                        "version-query": ".tag_name | sub(\"^(hashcat-|v)\"; \"\")",
+                        "url-query": "\"https://github.com/hashcat/hashcat/archive/refs/tags/\" + .tag_name + \".tar.gz\""
                     }
                 }
             ]
